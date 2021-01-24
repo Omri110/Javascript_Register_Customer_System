@@ -10,6 +10,16 @@ Overall document style
 form { outline-style: none; }
 
 
+li {
+    list-style: circle;
+    list-style-position: inside;
+  }
+  
+  .list {
+    list-style: square;
+    list-style-position: inside;
+  }
+
 #phone_num
 {
 
@@ -96,6 +106,16 @@ h2
     width: 800px;
     font-weight: bold;
     font-family:sans-serif
+    
+}
+
+.gray-box-img
+{
+    margin: 0 auto;
+    background:#f9f9f9;
+    border:2px solid #ddd;
+    border-radius:3px;
+    
     
 }
 
