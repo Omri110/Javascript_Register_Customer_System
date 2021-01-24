@@ -160,14 +160,14 @@ function ValidateForm() {
     
     //Sending section- all FIelds are Valid
 
-	if(Result_Text!=="")
+	if(Result_Text!=="" && Result_Text!=="undefined")
 	{
 	alert(Result_Text);
 	}
 	
 	else
 	{ 
-	alert("Successfully Registered Client!");
+	alert("הלקוח נרשם בהצלחה!");
 	}
 	
 	//Sending section- all FIelds are Valid
