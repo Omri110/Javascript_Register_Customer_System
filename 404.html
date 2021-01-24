@@ -4,6 +4,25 @@
     <meta charset="utf-8">
     <title>Page Not Found :(</title>
     <style>
+      
+      #goback{
+        margin: 0 auto;
+      background-color: #4D94FF;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      }
+
+      #goback:hover{
+        margin: 0 auto;
+        background-color: #4D94FF;
+      color: navy;
+      border: none;
+      border-radius: 25px;
+      }
+
+      #goback:focus { margin: 0 auto;outline-style: none; }
+
       ::-moz-selection {
         background: #b3d4fc;
         text-shadow: none;
@@ -149,6 +168,10 @@
         <li>לינק שאינו בתוקף כבר</li>
       </ul>
 
+    <div style="text-align:center;margin-bottom:48px;">
+        <button id="goback" class="goback" onclick="window.location.href='index.html'">חזרה לדף ההרשמה</button>		
+	  </div>
+
       <!--
         <img src="./Eliran_NotFound.PNG" alt="Eliran_Not_Found" srcset="" width="400" height="400">
       -->
@@ -157,6 +180,7 @@
         var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
       </script>
       <script src="//linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+      
     
     
     </div>
