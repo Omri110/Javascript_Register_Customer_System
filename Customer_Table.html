@@ -25,9 +25,10 @@
         
 <div ng-app="CustomerFactory">
 	<div ng-controller="Customers">
-
+        <div style="text-align:center;margin-bottom:48px;">
         <h1>הוספה וחיפוש </h1>
         <h2>לקוחות בסופר 'שפע יששכר'</h2>
+    </div>
 
         <div class="gray-box" align-content="stretch" style="text-align: right">
             <div class="table-headline ">חיפוש לקוח קיים: </div>
@@ -89,7 +90,8 @@
                     mail: $scope.new_customer.mail,
 					created_date: Date(),
 				});
-			}
+            }
+            
 			$scope.removeCustomer = function(index){
 				$scope.customers.splice(index, 1);
 			}
@@ -99,8 +101,8 @@
     </div>
 
     <br>
-    <div>
-		<a href="index.html">חזרה לדף ההרשמה</a>
+    <div style="text-align:center;margin-bottom:48px;">
+        <button id="goback" class="goback" onclick="window.location.href='index.html'">חזרה לדף ההרשמה</button>		
 	</div>
     
     
