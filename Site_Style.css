@@ -15,7 +15,13 @@ li {
     list-style-position: inside;
   }
   
-  .list {
+.list {
+    list-style: square;
+    list-style-position: inside;
+  }
+
+  
+  .list2 {
     list-style: square;
     list-style-position: inside;
   }
@@ -119,8 +125,11 @@ h2
     
 }
 
-.nobold{
-    font-weight: normal;
+.copyrights{
+    font-weight:normal;
+    font-style: italic;
+    color: lightslategray;
+
 }
 
 .register-box{
