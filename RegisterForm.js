@@ -22,6 +22,7 @@ function ValidateForm() {
   
   
   
+  
 
   //Mail Rules Check
   if (atposition<1 || dotposition<atposition+2 || dotposition+2>=Email_Check.length)
@@ -143,7 +144,7 @@ function ValidateForm() {
 	
 	else
 	{ 
-	alert("הטופס נשלח בהצלחה");
+	alert("Successfully Registered Client!");
 	}
 	
 	//Sending section- all FIelds are Valid
