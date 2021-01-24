@@ -125,6 +125,14 @@ button{
 	border: none;
 	border-radius: 25px;
 }
+
+button:hover{
+    background-color: #4D94FF;
+	color: navy;
+	border: none;
+	border-radius: 25px;
+}
+
 .remove-button{
 	background-color: #4D94FF;
 	color: white;
