@@ -181,7 +181,7 @@ function ValidateForm() {
 //Form- Rendering Part 
 
 // change alert style part
-var ALERT_TITLE = "אופס! יש כמה שגיאות";
+var ALERT_TITLE = "הודעת מערכת";
 var ALERT_BUTTON_TEXT = "קיבלתי";
 
 if(document.getElementById) {
