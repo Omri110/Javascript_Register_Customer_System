@@ -145,7 +145,7 @@ function ValidateForm() {
    
     
     //Phone: Check Valid Components
-    if ( isNaN(Phone_Check) || Phone_Check.length !=9 ) 
+    if ( isNaN(Phone_Check) || Phone_Check.length !=7 ) 
     {
         
         Result_Text+= "מס' טלפון תקין אמור להכיל כ-7 ספרות, \n ";
